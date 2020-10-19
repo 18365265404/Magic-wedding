@@ -1,0 +1,148 @@
+
+/*图片动画*/
+.img-animate{
+	transition:all 1s ;
+}
+.img-animate:hover{
+	transform: scale(0.95,0.95);
+}
+
+
+#scheme{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.scheme-title{
+	background: white;
+	display: flex;
+	height: 100px;
+}
+#navTitle2{
+	height:80px ;
+	margin-top: 30px;
+}
+#navTitle2 h5{
+	line-height: 80px;
+}
+
+#navTitle3{
+	height:50px ;
+	margin-top: 30px;
+}
+#navTitle3 h5{
+	line-height: 50px;
+}
+
+.scheme-title h5{
+	width: 200px;
+	line-height: 100px;
+	text-align: center;
+	color: #333333;
+	font-size: 20px;
+	border-right: 1px solid #cccccc;
+}
+.scheme-title-list{
+	flex: 1;
+	font-size: 14px;
+	display: flex;
+	padding: 15px 5px 8px 25px;
+	flex-wrap: wrap;
+}
+.scheme-title-list li{
+	margin-right: 20px;
+}
+.scheme-title-list li:hover{
+	cursor: pointer;
+	color: #cc0000;
+}
+#scheme{
+	background: #EBECEE;
+}
+.scheme-content{
+	
+	background: #EBECEE;
+}
+.scheme-list-title {
+	margin-top: 20px;
+}
+
+.scheme-list-title-l{
+	margin-left: 20px;
+	line-height: 30px;
+	color: #333333;
+	font-size: 14px;
+}
+.scheme-list-title-r{
+	display: flex;
+	line-height: 30px;
+	margin-right: 20px;
+	
+}
+.cheme-list-tabs{
+	display: flex;
+	margin-right: 20px;
+}
+
+#more{
+	font-size: 16px;
+}
+
+
+.scheme-list-title {
+	margin-top: 20px;
+}
+
+.scheme-list-title-l{
+	margin-left: 20px;
+	line-height: 30px;
+	color: #333333;
+	font-size: 14px;
+}
+.scheme-list-title-r{
+	display: flex;
+	line-height: 30px;
+	margin-right: 20px;
+	
+}
+.cheme-list-tabs{
+	display: flex;
+	margin-right: 20px;
+}
+.cheme-list-tabs span{
+	/*border: 1px solid #999999;*/
+	/*background: white;*/
+	line-height: 20px;
+	margin-top: 5px;
+	margin-right: ;
+	border-radius: 3px;
+	width: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+#flower{
+	background: #EBECEE;
+	padding-bottom: 20px;
+}
+.flower-list{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20px;
+}
+.flower-list li{
+	width: 340px;
+	height: 500px;
+	margin-right: 20px;
+	background: white;
+}
+.flower-list li:nth-child(3n){
+	margin-right: 0;
+}
+.flower-list li img{
+	width: 100%;
+	height: 450px;
+}
+.flower-list li p{
+	line-height: 30px;
+}

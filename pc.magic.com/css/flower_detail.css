@@ -1,0 +1,25 @@
+#title{
+	
+	color: #666666;
+	line-height: 30px;
+	margin: 15px auto;
+	
+	
+}
+#title p{
+	border-left: 5px solid #FF7066;
+	padding: 0 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.content{
+	
+}
+.content img{
+	display: block;
+	height: 400px;
+	width: 1100px;
+	margin: 10px auto;
+	padding: 10px 50px;
+	background: white;
+}

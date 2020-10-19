@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/imageText_detail.css"/>
+		<link rel="stylesheet" type="text/css" href="../package/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="../package/css/swiper.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<title>magic wedding</title>
+		<script src="../package/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/url.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../package/js/echo.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+	<div id="header"></div>
+
+	<div class="article layout clearfix" style="min-height: 900px;">
+		<div class="article-left">
+			<p class="article-title" style="text-align: center;line-height: 50px;font-size: 18px;font-weight: 800; margin-bottom: 10px;"></p>
+			<div class="article-share clearfix" style="margin-right: 30px;">
+				<p data-toggle="modal" data-target="#myModal" onclick="copyUrl()" style=" float: right; width:35px;height: 35px; border-radius: 50%; border: 1px solid #F83244; text-align: center;
+				line-height: 35px; ">
+					<span style="color: #F83244;line-height: 35px; font-size: 20px;" class="glyphicon glyphicon-share"></span>
+					
+				</p>
+			</div>
+			<div class="clearfix">
+				<p style="float: right;margin-right: 20px;">点击分享吧</p>
+			</div>
+			<div class="article-content">
+				
+			</div>
+		</div>
+		<div class="article-right">
+			<p class="article-des" style=" margin-top: 20px;margin-left:20px; padding-left: 20px; line-height: 30px; font-size: 18px;font-weight: 800; border-left: 4px solid #FF7066;">热门文章</p>
+			<ul class="article-list article-list1">
+				
+				<li><a href="imageText_detail.html">标题1</a></li>
+				
+			</ul>
+			
+			<p class="article-des" style=" margin-top: 50px;margin-left:20px; padding-left: 20px; line-height: 30px; font-size: 18px;font-weight: 800; border-left: 4px solid #FF7066;">热门文章</p>
+			<ul class="article-list article-list2">
+				<p class="article-des">热门文章</p>
+				<li><a href="imageText_detail.html">标题1</a></li>
+				
+			</ul>
+			
+			<p class="article-des" style="margin-top: 50px; margin-left:20px; padding-left: 20px; line-height: 30px; font-size: 18px;font-weight: 800; border-left: 4px solid #FF7066;">热门文章</p>
+			<ul class="article-list article-list3">
+				
+				<li><a href="imageText_detail.html">标题1</a></li>
+				
+			</ul>
+
+			
+		</div>
+	</div>
+
+	<div id="footer"></div>
+	<script type="text/javascript">
+		$(function(){
+			$("#footer").load("_foot.html")
+			$("#header").load("_head.html")
+		})
+
+	</script>
+	
+<textarea id="urlVal" style="opacity: 0;">77777</textarea>
+
+<!-- 模态框（Modal） -->
+<div style="margin-top:70px"  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="">
+		<div class="modal-content" style="">
+			<div class="modal-header">
+				<button id="button-video" type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				
+			</div>
+			<div class="modal-body" style="font-size: 20px; font-weight: 800; text-align: center; line-height: 200px;">
+				复制链接地址成功，快点分享给好友吧~
+			</div>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+	
+	
+	<script src="../js/imageText_detail.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/color_more.css"/>
+		<link rel="stylesheet" type="text/css" href="../package/css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../package/css/swiper.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<title>magic wedding</title>
+		<script src="../package/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/url.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/laypage/laypage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../package/js/echo.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	
+	<body>
+	<div id="header"></div>
+
+	
+		<div id="choose-box" class="layout">
+		<ul id="choose-condition">
+			<li>
+				<span>案例类型：</span>
+				
+				<div class="kind-list kind-list1">
+					<span onclick="showCondition('1')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			<li>
+				<span>婚礼主题：</span>
+				
+				<div class="kind-list kind-list2">
+					<span onclick="showCondition('2')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			
+			<li>
+				<span>婚礼地点：</span>
+				
+				<div class="kind-list kind-list3">
+					<span onclick="showCondition('3')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			<li>
+				<span>婚礼色系：</span>
+				
+				<div class="kind-list kind-list4">
+					<span onclick="showCondition('4')">全部</span>
+					<i  onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+				</div>
+			</li>
+		</ul>
+		
+	</div>
+	
+	
+	<div id="condition-box" class="layout">
+		<ul class="condition-title clearfix">
+			<li  class="fl condition-title-l">
+				<span>排序：</span>
+				<i id="sort1" onclick="sort('')">默认</i>
+				
+				<i id="sort2" onclick="sort('1')">更新</i>
+			</li>
+			<li class="fr condition-title-r" style="display: none;">
+				<a >更多</a>
+			</li>
+		</ul>
+		
+		<ul class="condition-content">
+			<li onclick="(window.location.href='color_detail.html')">
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			<li>
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			<li>
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			
+		</ul>
+		
+
+	</div>
+	
+	
+	<div class="layout">
+		<div style="width: 100%; display: flex; justify-content: flex-end; margin-top: 50px; margin-bottom: 100px;">
+			<div id="biuuu_city" style="color: red;">
+							
+			</div>
+			
+		</div>
+	</div>
+
+	<div id="footer"></div>
+	<script type="text/javascript">
+		
+		
+		
+		$(function(){
+			$("#header").load("_head.html")
+			$("#footer").load("_foot.html")
+			
+		})
+		
+			
+	</script>
+	
+
+	
+	
+	<script src="../js/color_more.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>

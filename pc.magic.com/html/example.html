@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/example.css"/>
+		<link rel="stylesheet" type="text/css" href="../package/css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../package/css/swiper.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<title>magic wedding</title>
+		<script src="../package/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/url.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../package/js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	
+	<body>
+	<div id="header"></div>
+	<script type="text/javascript">
+		$(function(){
+			$("#header").load("_head.html")
+		})
+	</script>
+	
+	<div id="choose-box" class="layout">
+		<ul id="choose-condition">
+			<li>
+				<span>案例类型：</span>
+				
+				<div class="kind-list kind-list1">
+					<span onclick="showCondition('1')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			<li>
+				<span>婚礼主题：</span>
+				
+				<div class="kind-list kind-list2">
+					<span onclick="showCondition('2')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			
+			<li>
+				<span>婚礼地点：</span>
+				
+				<div class="kind-list kind-list3">
+					<span onclick="showCondition('3')">全部</span>
+					<i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i><i onclick="showCondition()">婚礼</i>
+					<i onclick="showCondition()">宝宝宴</i>
+				</div>
+			</li>
+			<li>
+				<span>婚礼色系：</span>
+				
+				<div class="kind-list kind-list4">
+					<span onclick="showCondition('4')">全部</span>
+					<i  onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+					<i onclick="showCondition()"></i>
+				</div>
+			</li>
+		</ul>
+		
+	</div>
+	
+	
+	<div id="condition-box" class="layout">
+		<ul class="condition-title clearfix">
+			<li  class="fl condition-title-l">
+				<span>排序：</span>
+				<i onclick="sort('')" style="color:red">默认</i>
+				
+				<i onclick="sort('1')">最新</i>
+			</li>
+			<li class="fr condition-title-r">
+				<a href="color_more.html">更多</a>
+			</li>
+		</ul>
+		
+		<ul class="condition-content">
+			<li onclick="(window.location.href='color_detail.html')">
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			<li>
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			<li>
+				<div class="img-box">
+					<img src="../img/product1_exe.jpg"/>
+				</div>
+				<p>白绿金半透明材质个性装饰婚礼</p>
+			</li>
+			
+		</ul>
+		
+		<ul class="get-tag">
+			<li>
+				<span>案例类型：</span>
+				<i id="visualType1">全部</i>
+			</li>
+			<li>
+				<span>婚礼主题：</span>
+				<i id="visualType2">全部</i>
+			</li>
+			<li>
+				<span>婚礼地点：</span>
+				<i id="visualType3">全部</i>
+			</li>
+			<li>
+				<span>婚礼色系：</span>
+				<ul class="get-color-list">
+					全部
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<!--策划布置---------------------------------------------------------------------------->
+	<div id="scheme" class="layout scheme">
+		<div id="navTitle1" class="scheme-title">
+			<h5>策划布置</h5>
+			<ul class="scheme-title-list scheme-title-list1" id="scheme-title-list1">
+				<li>婚礼细节</li>
+				<li>接待区</li>
+				<li>甜品桌</li>
+				<li>婚礼场地</li>
+				<li>婚礼细节</li>
+				<li>接待区</li>
+				<li>甜品桌</li>
+				<li>婚礼场地</li>
+				<li>婚礼细节</li>
+				<li>接待区</li>
+				<li>甜品桌</li>
+
+			
+			</ul>
+		</div>
+		
+		
+		
+		<div class="scheme-content layout">
+			<ul class="scheme-list-title clearfix">
+				<li class="fl scheme-list-title-l">
+					<span>策划布置:</span>
+					<i id="visualType4">全部</i>
+				</li>
+				<li class="fr scheme-list-title-r">
+					<div class="cheme-list-tabs cheme-list-tabs1" >
+						<span onclick="sort2('')" style="color:red">默认</span>
+
+						<span onclick="sort2('1')">最新</span>
+					</div>
+					<a id="more" href="scheme_more.html">更多</a>
+				</li>
+			</ul>
+		</div>
+		
+		<ul class="scheme-img-list">
+			<li>
+				<img class="img-animate" src="../img/goods_exe.png"/>
+				
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/product2_exe.jpg"/>
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/goods_exe.png"/>
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/goods_exe.png"/>
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/goods_exe.png"/>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/goods_exe.png"/>
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/product1_exe.jpg"/>
+				<p>来源于：</p>
+			</li>
+			<li>
+				<img class="img-animate" src="../img/product3_exe.jpg"/>
+				<p>来源于：</p>
+			</li>
+		</ul>
+	</div>
+	<!--婚礼花艺---------------------------------------------------------------------------->
+	<div id="navTitle2"  class="scheme-title layout">
+		<h5>婚礼花艺</h5>
+		<ul class="scheme-title-list scheme-title-list2" id="scheme-title-list2">
+			<li>婚礼细节</li>
+			<li>接待区</li>
+			<li>甜品桌</li>
+			<li>婚礼场地</li>
+			<li>婚礼细节</li>
+			<li>接待区</li>
+			<li>甜品桌</li>
+			<li>婚礼场地</li>
+			<li>婚礼细节</li>
+			<li>接待区</li>
+			<li>甜品桌</li>
+			<li>婚礼场地</li>
+			<li>婚礼细节</li>
+			<li>接待区</li>
+			<li>甜1品桌</li>
+			<li>婚礼场地</li>
+
+		
+		</ul>
+	</div>
+	
+	<div id="flower" class="flower layout">
+		<ul class="scheme-list-title clearfix">
+				<li class="fl scheme-list-title-l">
+					<span>婚礼花艺:</span>
+					<i id="visualType5">全部</i>
+				</li>
+				<li class="fr scheme-list-title-r">
+					<div class="cheme-list-tabs cheme-list-tabs2">
+						<span onclick="sort3('')" style="color:red">默认</span>
+
+						<span onclick="sort3('1')">最新</span>
+					</div>
+					<a id="more" href="flower_more.html">更多</a>
+				</li>
+			</ul>
+			
+			<ul class="flower-list">
+				<li>
+					<img class="img-animate" src="../img/goods_exe.png"/>
+					<p>来源于：</p>
+				</li>
+				<li>
+					<img class="img-animate" src="../img/goods_exe.png"/>
+					<p>来源于：</p>
+				</li>
+				<li>
+					<img class="img-animate" src="../img/goods_exe.png"/>
+					<p>来源于：</p>
+				</li>
+			</ul>
+	</div>
+<!--婚礼设计---------------------------------------------------------------------------->
+	<div id="navTitle3" class="scheme-title layout">
+		<h5>婚礼设计</h5>
+		<ul class="scheme-title-list scheme-title-list3 " id="scheme-title-list3">
+			<li>婚礼细节</li>
+			<li>接待区</li>
+			<li>甜品桌</li>
+			<li>婚礼场地</li>
+			<li>婚礼细节</li>
+
+	
+		
+		</ul>
+		<a id="more" href="design_more.html" style="line-height: 50px; margin-right: 20px;">更多</a>
+	</div>
+	<div id="design" class="design layout">
+		<img class="img-animate2" src="../img/product1_exe.jpg"/>
+	</div>
+	
+	
+	<div id="footer"></div>
+	<script type="text/javascript">
+		$(function(){
+			$("#footer").load("_foot.html")
+		})
+	</script>
+	
+
+	
+	
+	<script src="../js/example.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>

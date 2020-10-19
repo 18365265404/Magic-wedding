@@ -1,0 +1,147 @@
+#choose-box{
+	background: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+#choose-condition{
+	border: 1px solid #cccccc;
+	
+}
+#choose-condition li{
+	display: flex;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px dotted #cccccc;
+	padding: 6px 0;
+}
+#choose-condition li:last-child{
+	border-bottom: none
+}
+#choose-condition >li> span{
+	color: #333333;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+#choose-condition li>i{
+	margin-right: 10px;
+}
+.kind-list{
+	line-height: 30px;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+.kind-list span{
+	color: #666666;
+	cursor: pointer;
+	margin-right: 10px;
+
+}
+.kind-list span:hover{
+	color: #cc0000;
+}
+.kind-list i{
+	color: #666666;
+	margin-right: 10px;
+	
+}
+
+#choose-condition li i:hover{
+	color: #cc0000;
+	cursor: pointer;
+}
+
+.kind-list4 i{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: 6px;
+	background: greenyellow;
+}
+
+
+#condition-box{
+	background: white;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.condition-title{
+
+	border-bottom: 1px solid #cccccc;
+}
+.condition-title-l{
+	font-size: 12px;
+	display: flex;	
+	color: #999999;
+	line-height: 50px;
+}
+.condition-title-l span{
+	margin-right: 15px;
+}
+.condition-title-l i{
+	margin-right: 10px;
+}
+.condition-title-r{
+	line-height: 50px;
+	color: #333333;
+	font-size: 16px;
+}
+
+.condition-content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.condition-content li{
+	margin:20px;
+	margin-left: 0;
+	width: 340px;
+	height: 252px;
+	overflow: hidden;
+}
+.condition-content li:nth-child(3n){
+	margin-right: 0;
+}
+.img-box{
+	overflow: hidden;
+	height: 216px;
+}
+.condition-content li img{
+	transition:all 1s ;
+	height: 216px;
+	width: 100%;
+	
+}
+.condition-content li img:hover{
+	transform: scale(1.25,1.25);
+}
+.condition-content li p{
+	height: 36px;
+	line-height: 36px;
+}
+
+.kind-list4 i{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: 6px;
+	border: 1px solid #cccccc;
+	background: greenyellow;
+}
+
+
+#condition-box{
+	background: white;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.condition-title{
+
+	border-bottom: 1px solid #cccccc;
+}
+.condition-title-l{
+	font-size: 12px;
+	display: flex;	
+	color: #999999;
+	line-height: 50px;
+	cursor: pointer;
+}

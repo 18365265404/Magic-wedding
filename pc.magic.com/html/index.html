@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="../css/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../package/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../package/css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <title>magic wedding</title>
+    <script src="../package/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../package/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../package/js/url.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../package/js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../package/js/echo.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="header"></div>
+	<script type="text/javascript">
+		$(function(){
+			$("#header").load("_head.html")
+		})
+	</script>
+	
+	<!--轮播图-->
+	<div class="home-banner">
+		   <!---------------轮播图---------------------->
+	  <div id="swiper_container" class="swiper-container  swiper-container1">
+	    <div class="swiper-wrapper swiper-wrapper1">
+
+
+
+	    </div>
+	
+		<div class="swiper-pagination" style=""></div>
+	  </div>
+	</div>
+	
+	
+	<ul id="home-content" class="layout">
+		<li>
+			<img src="../img/product1_exe.jpg"/>
+			<p>我是内容一</p>
+		</li>
+		<li>
+			<img src="../img/product2_exe.jpg"/>
+			<p>我是内容二</p>
+		</li>
+		<li>
+			<img src="../img/product3_exe.jpg"/>
+			<p>我是内容三</p>
+		</li>
+	</ul>
+
+	
+	<div id="home-process" class="layout">
+		<h5 class="title"> 
+			<span>服务流程</span>
+			<i>PROCESS</i>
+		</h5>
+		<img class="lazy" src="../img/blank.gif" data-echo="../img/decripc_exe.jpg">
+		
+	</div>
+	
+	<div id="home-goods" class="layout" style="position: relative;">
+		<h5 class="title"> 
+			<span>婚礼婚品</span>
+			<i>GOODS</i>
+		</h5>
+		<a style="display: block; position: absolute;right: 10px;top: 0;line-height:30px;font-size: 18px;"  href="shop_more.html">更多</a>
+		<ul class="goods-list">
+			<li>
+				<img class="lazy" src="../img/blank.gif" data-echo="../img/goods_exe.png">
+			</li>
+			<li>
+				<img src="../img/goods_exe.png"/>
+			</li>
+			<li>
+				<img src="../img/goods_exe.png"/>
+			</li>
+			<li>
+				<img src="../img/goods_exe.png"/>
+			</li>
+		</ul>
+	</div>
+	<div id="home-tabs" class="layout">
+		<img src="../img/tabs_exe.jpg"/>		
+	</div>
+	
+	<div id="footer"></div>
+	
+	<script type="text/javascript">
+		$(function(){
+			$("#footer").load("_foot.html")
+		})
+		
+		Echo.init({
+
+			offset: 10,
+		
+			throttle: 80
+		
+		});
+
+		
+	</script>
+	
+	<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	
+</body>
+</html>
